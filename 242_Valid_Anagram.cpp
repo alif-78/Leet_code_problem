@@ -5,8 +5,8 @@ int main ()
     string s = "anagram";
     string t = "nngaram";
     int flag = 0;
-    map<char,int> mapS;
-    map<char,int> mapt;
+    unordered_map<char,int> mapS;
+    unordered_map<char,int> mapt;
     if (s.size()==t.size())
     {
         for(char c: s)
